@@ -34,7 +34,7 @@
 % column for each channel. Data are arranged as follows
 % Out_Transposed Row 1: Channel number, extracted from header information
 % Out_Transposed Row 2: Membrane potential (median value of zero current input). Units - mV
-% Out_Transposed Row 3: Max firing frequency acheived across full 1 s inputs. Units - Hz
+% Out_Transposed Row 3: Max firing frequency achieved across full 1 s inputs. Units - Hz
 % Out_Transposed Row 4: Current injection required for spike generation. Units - pA
 % Out_Transposed Row 5: Input resistance. Units - MΩ
 % Out_Transposed Row 6: Spike frequency adaptation. No units
