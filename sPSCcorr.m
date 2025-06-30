@@ -4,6 +4,18 @@
 % detection is performed using 'minidet', developed by Alois Schlögl, IST
 % Austria and available as part of the Biosig package: https://biosig.sourceforge.net/
 %
+%     sPSCcorr.m Copyright (C) 2025 Jake Watson
+%     This program is free software: you can redistribute it and/or modify
+%     it under the terms of the GNU General Public License as published by
+%     the Free Software Foundation, either version 3 of the License, or
+%     any later version.
+% 
+%     This program is distributed in the hope that it will be useful,
+%     but WITHOUT ANY WARRANTY; without even the implied warranty of
+%     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%     GNU General Public License for more details.
+%     You should have received a copy of the GNU General Public LicenseAdd commentMore actions
+%     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 %
 % This code has been written for analysis of recording files (CFS file type) with specific
 % structure, and is not intended as a general analysis script. I hope that
@@ -15,7 +27,7 @@
 % relevance to your cell types, but this must be thoroughly checked
 % throughout the script.
 %
-% This code requires Biosig and the NaN toolbox.
+% This code requires Biosig (https://biosig.sourceforge.net/) and the NaN toolbox.
 %
 % User input is required to input the location and identity of the
 % recording file for analysis, and the identity of each recorded cell, for
