@@ -4,6 +4,19 @@
 % and includes analysis of initial burst frequencies used in identification
 % of CA3 pyramidal neuron subclasses.
 %
+%     CellCharFun.m Copyright (C) 2025 Jake Watson
+%     This program is free software: you can redistribute it and/or modify
+%     it under the terms of the GNU General Public License as published by
+%     the Free Software Foundation, either version 3 of the License, or
+%     any later version.
+% 
+%     This program is distributed in the hope that it will be useful,
+%     but WITHOUT ANY WARRANTY; without even the implied warranty of
+%     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%     GNU General Public License for more details.
+%     You should have received a copy of the GNU General Public LicenseAdd commentMore actions
+%     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+%
 % This code has been written for analysis of recording files with specific
 % structure, and is not intended as a general analysis script. I hope that
 % you find it helpful, but please ensure all parameters and analyses are
@@ -34,7 +47,7 @@
 % column for each channel. Data are arranged as follows
 % Out_Transposed Row 1: Channel number, extracted from header information
 % Out_Transposed Row 2: Membrane potential (median value of zero current input). Units - mV
-% Out_Transposed Row 3: Max firing frequency achieved across full 1 s inputs. Units - Hz
+% Out_Transposed Row 3: Max firing frequency acheived across full 1 s inputs. Units - Hz
 % Out_Transposed Row 4: Current injection required for spike generation. Units - pA
 % Out_Transposed Row 5: Input resistance. Units - MΩ
 % Out_Transposed Row 6: Spike frequency adaptation. No units
