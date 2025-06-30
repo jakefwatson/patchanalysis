@@ -8,4 +8,4 @@ These scripts have been written for analysis of recording files with specific st
 I hope that you find them helpful as a basis for your own analysis, but please ensure all parameters and analyses are correct and appropriate for your own data structure.
 Detailed information on the limitations and assumptions of each script is included in the header of the .m file.
 
-These scripts written for Watson et al. Cell Reports 2025.
+These scripts were written for Watson et al. Cell Reports 2025.
