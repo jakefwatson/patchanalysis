@@ -1,5 +1,5 @@
 # patchanalysis
-MATLAB scripts for patch clamp data analysis.
+MATLAB scripts for patch-clamp data analysis.
 
 This collection includes two scripts: CellCharFun.m and sPSCcorr.m
 CellCharFun.m is used for analysing passive and active neuronal properties from current injection recordings. An example file is included.
