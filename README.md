@@ -2,7 +2,9 @@
 MATLAB scripts for patch-clamp data analysis.
 
 This collection includes two scripts: CellCharFun.m and sPSCcorr.m
+
 CellCharFun.m is used for analysing passive and active neuronal properties from current injection recordings. An example file is included.
+
 sPSCcorr.m is used for detection and analysis of spontaneous PSC events correlated between channels in multicellular patch-clamp data.
 
 These scripts have been written for analysis of recording files with specific structure, and are not intended for immediate general application.
